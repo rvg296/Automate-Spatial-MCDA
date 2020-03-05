@@ -1,4 +1,4 @@
-# Automate Multi Criteria Decision Analysis in GIS
+# Automate Spatial Multi Criteria Decision Analysis in GIS
 ### Add-in Application Development for choosing sites for housing based on accessibility levels.
 
 ### Abstract
