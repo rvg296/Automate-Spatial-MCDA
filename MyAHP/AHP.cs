@@ -10,9 +10,10 @@ namespace MyAHP
 {
     internal class AHP : Button
     {
-        protected override void OnClick()
+        protected  override void OnClick()
         {
             new AHPForm().Show();
+            
         }
     }
 }

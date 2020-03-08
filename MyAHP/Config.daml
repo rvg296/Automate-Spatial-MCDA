@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ArcGIS defaultAssembly="MyAHP.dll" defaultNamespace="MyAHP" xmlns="http://schemas.esri.com/DADF/Registry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.esri.com/DADF/Registry file:///C:/Program%20Files/ArcGIS/Pro/bin/ArcGIS.Desktop.Framework.xsd">
-  <AddInInfo id="{8e400316-72da-4f96-b5f9-f565408fb8b0}" version="1.0" desktopVersion="2.5">
-    <Name>MyAHP</Name>
-    <Description>MyAHP description</Description>
-    <Image>Images\AddinDesktop32.png</Image>
-    <Author>Rohit Venkat Gandhi</Author>
+  <AddInInfo id="{8e400316-72da-4f96-b5f9-f565408fb8b0}" version="2.0" desktopVersion="2.5">
+    <Name>The AHP add-in for ArcGIS Pro</Name>
+    <Description>AHP is a structured technique in MCDA for organizing and analyzing complex decisions.This AHP add-in is developed for ArcGIS Pro, simplifies the AHP computation process and also performs sensitivity analysis.</Description>
+    <Image>Images\AddInDesktop32.png</Image>
+    <Author>Rohit Venkat Gandhi Mendadhala</Author>
     <Company>The University of Texas at Dallas</Company>
     <Date>3/24/2018 9:49:20 PM, 2018</Date>
-    <Subject>Framework</Subject>
+    <Subject>Geoprocessing, Raster Analysis</Subject>
     <!-- Note subject can be one or more of these topics:
                     Content, Framework, Editing, Geodatabase, Geometry, Geoprocessing, Layouts, Map Authoring, Map Exploration -->
   </AddInInfo>
@@ -29,8 +29,8 @@
       </groups>
       <controls>
         <!-- add your controls here -->
-        <button id="MyAHP_AHP" caption="AHP" className="AHP" loadOnClick="true" smallImage="D:\ahp.gif" largeImage="Images\GenericButtonBlue32.png">
-          <tooltip heading="Tooltip Heading">Tooltip text<disabledText /></tooltip>
+        <button id="MyAHP_AHP" caption="AHP" className="AHP" loadOnClick="true" smallImage="Images\GenericButtonBlue16.png" largeImage="Images\GenericButtonBlue32.png">
+          <tooltip heading="AHP-Addin">Analytical Hierarchy Process (AHP) is an algorithm applied for performing Multi-Criteria Decision Analysis. Its a technique for organizing and analyzing complex information. AHP was used from a long-time in Spatial Analysis, but there was a need for automating the computation process and streamline the workflow. This add-in targets to automate the MCDA process and also perform sensitivity analysis for observing changes when your chosen criteria weight is changed.<disabledText /></tooltip>
         </button>
       </controls>
     </insertModule>
