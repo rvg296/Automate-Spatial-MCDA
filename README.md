@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 ## Automating Multi Criteria Decision Analysis in GIS
 
 ## Theme:Add-in Application Development for choosing sites for housing based on accessibility levels.
