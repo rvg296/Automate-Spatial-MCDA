@@ -94,6 +94,8 @@ Sensitivity Analysis is a powerful alternative for incorporating uncertainities 
 
 <a href="https://www.youtube.com/watch?v=mV2inNIBkMI" target="_blank">View AHP-Addin Demo here</a>
 
+[![AHP-Video](https://img.youtube.com/vi/mV2inNIBkMI/0.jpg)](http://www.youtube.com/watch?v=mV2inNIBkMI)
+
 The screenshots shown may be slightly different from the demo, as the demo was made with version 1.0
 
 ### Contributions-Improvements-Bugs
