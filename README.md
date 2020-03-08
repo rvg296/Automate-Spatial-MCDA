@@ -1,5 +1,5 @@
 ## Automating Spatial Multi Criteria Decision Analysis using ArcGIS Pro SDK
-## Theme: Housing Sites Selection based on accessibility levels perspective
+## Theme: Housing Sites Selection based on accessibility levels to basic facilities
 
 ### Table of Contents
 
@@ -19,7 +19,7 @@
 Multi-Criteria decision analysis is one of the most powerful technique in evaluating and comparing multiple criteria for arriving at a solution. MCDA can also applied in Geospatial world for making some crucial location based decisions. As a part of this project, I have used MCDA for choosing sites for the housing development based on accessibility levels to basic facilities like Grocery Stores, Medical Facilities, Fire Stations, Schools, Parks, Transit Stations.
 
 ### AHP Intro and ArcGIS Pro Integration:
-In MCDA, One of the first algorithm introduced in MCDA was Analytical Hierarchy Process (AHP) by Thomas Saaty in 1980.Since the AHP algorithm involves several matrix computations which can be laborious without excel, I have developed this add-in which can be integrated with ArcGIS Pro and run for making analysis.
+One of the first algorithms introduced in MCDA was Analytical Hierarchy Process (AHP) by Thomas Saaty in 1980.Since the AHP algorithm involves several matrix computations which can be laborious without excel, I have developed this add-in which can be integrated with ArcGIS Pro for performing suitability analysis and also extending it with Sensitivity Analysis.
 
 ### Installation Process:
 Clone/download the repo and look for MyAHP.esriAddinX and double click on it for installation.
@@ -58,7 +58,7 @@ When we are performing MCDA in GIS, since we are comparing various criteria it i
 - 0.8-1 -> 3 (Highly Suitable)
 
 ### Implementation and Workflow:
-At a high level overview the workflow is divided into three stages namely data preparation, AHP algorithm implementation, Sensitivity Analysis
+At a high level overview the workflow is divided into three stages namely Data Preparation, AHP algorithm implementation, Sensitivity Analysis
 
 #### Data Preparation Stage:
 - Eucledian distance rasters were generated from the criteria feature classes (Transit,Medical..etc)
@@ -100,3 +100,4 @@ The screenshots shown may be slightly different from the demo, as the demo was m
 
 ### Contributions-Improvements-Bugs
 Feel free to report any bugs you encounter while using this add-in. If you are interested in optimizing the code-base for this add-in and make it better in terms performance, please contact me at rvg296@gmail.com, so I can add you to the contributor list for collaboration. Any pull requests are reviewed carefully and suggestions are accepted.
+
