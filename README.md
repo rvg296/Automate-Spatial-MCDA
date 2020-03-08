@@ -28,16 +28,16 @@ In MCDA, One of the first algorithm introduced in MCDA was Analytical Hierarchy 
 
 Clone/download the repo and look for MyAHP.esriAddinX and double click on it for installation.
 This should add the add-in and make an Add-in tab in your ArcGIS Pro.
-![AHP Add-in Install Screenshot](/MyAHP/Images/Addin-Install.png "Add-in Install Screenshot")
+![AHP Add-in Install Screenshot](MyAHP/Images/Addin-Install.png "Add-in Install Screenshot")
 
 Once the add-in is installed, it should show up in your ArcGIS Pro Add-in Manager.
-![ArcGIS Pro Add-in Manager](/MyAHP/Images/Pro-Addin-Manager.png "Pro-Addin-Manager Screenshot")
+![ArcGIS Pro Add-in Manager](MyAHP/Images/Pro-Addin-Manager.png "Pro-Addin-Manager Screenshot")
 
 When you navigate to ArcGIS Pro add-in tab at the top
-![ArcGIS Pro Add-in Tab](/MyAHP/Images/AHP-Addin-Tab.png "Pro-AHP-Addin Tab")
+![ArcGIS Pro Add-in Tab](MyAHP/Images/AHP-Addin-Tab.png "Pro-AHP-Addin Tab")
 
 Click on the Add-in and you see the following screenshot
-![Add-in interface](/MyAHP/Images/AHPAddIn.png "AHP-addin")
+![Add-in interface](MyAHP/Images/AHPAddIn.png "AHP-addin")
 
 Note that the raster layers may differ depending on what are open in your project.
 Only those raster layers which are active (visible and checked) in the Table of contents will be ready for analysis.
@@ -52,9 +52,9 @@ Only those raster layers which are active (visible and checked) in the Table of 
 
 When we are performing MCDA in GIS, since we are comparing various criteria it is often better to use the Feature/Raster Layers on a uniform scale rather than a varying scale. Hence normalization is performed (ex: 0 to 1 , 1 to 100). In order to minimize the manual intervention of the user with default geoprocessing tools in ArcGIS Pro, we have integrated these reclassification values into the code which can be changed as per your normalization scale. For this project, the normalization scale is chosen as (0 to 1) for the raster layers and also when performing raster reclassification the following ranges were considered which again can be customized in the code again as per user requirements.
 
-0-0.6 -> 1 (Less Suitable)
-0.6-0.8 -> 2 (Moderately Suitable)
-0.8-1 -> 3 (Highly Suitable)
+- 0-0.6 -> 1 (Less Suitable)
+- 0.6-0.8 -> 2 (Moderately Suitable)
+- 0.8-1 -> 3 (Highly Suitable)
 
 ### Implementation and Workflow:
 
