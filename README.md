@@ -28,16 +28,16 @@ In MCDA, One of the first algorithm introduced in MCDA was Analytical Hierarchy 
 
 Clone/download the repo and look for MyAHP.esriAddinX and double click on it for installation.
 This should add the add-in and make an Add-in tab in your ArcGIS Pro.
-![AHP Add-in Install Screenshot](MyAHP/Images/Addin-Install.png "Add-in Install Screenshot")
+![](MyAHP/Images/Addin-Install.PNG "Add-in Install Screenshot")
 
 Once the add-in is installed, it should show up in your ArcGIS Pro Add-in Manager.
-![ArcGIS Pro Add-in Manager](MyAHP/Images/Pro-Addin-Manager.png "Pro-Addin-Manager Screenshot")
+![](MyAHP/Images/Pro-Addin-Manager.PNG "Pro-Addin-Manager Screenshot")
 
 When you navigate to ArcGIS Pro add-in tab at the top
-![ArcGIS Pro Add-in Tab](MyAHP/Images/AHP-Addin-Tab.png "Pro-AHP-Addin Tab")
+![](MyAHP/Images/AHP-Addin-Tab.PNG "Pro-AHP-Addin Tab")
 
 Click on the Add-in and you see the following screenshot
-![Add-in interface](MyAHP/Images/AHPAddIn.png "AHP-addin")
+![](MyAHP/Images/AHPAddIn.PNG "AHP-addin")
 
 Note that the raster layers may differ depending on what are open in your project.
 Only those raster layers which are active (visible and checked) in the Table of contents will be ready for analysis.
