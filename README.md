@@ -1,6 +1,8 @@
 # Automate Spatial Multi Criteria Decision Analysis in GIS
 ### Add-in Application Development for choosing sites for housing based on accessibility levels.
 
+- [Abstract](#abstract)
+
 ### Abstract
 Right from the food we eat till the clothes we prefer to wear; our decision depends on various important criteria that we need to prioritize strategically.  Similarly, in the contemporary world, the need for intelligent spatial decision making has gained a paramount importance. Let it be selecting a best place for building a new house or opening a new restaurant or relocating a company’s office, every decision can make or break the business. Making wise decisions in industrial site selection and housing development sites by the agencies needs a lot of attention and care that needs to be taken which is dependent on various decision factors. In the field of GIS, the process of Multi criteria decision analysis help us in deciding about the prioritization of our criteria. 
 
