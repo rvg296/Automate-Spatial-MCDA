@@ -27,16 +27,23 @@ In MCDA, One of the first algorithm introduced in MCDA was Analytical Hierarchy 
 ### Installation Process:
 
 Clone/download the repo and look for MyAHP.esriAddinX and double click on it for installation.
+
+<img src="MyAHP/Images/Addin-Install.PNG" ></img>
+
+
+The add-in should be in installed in "C:\Users\{username}\Documents\ArcGIS\AddIns\
 This should add the add-in and make an Add-in tab in your ArcGIS Pro.
-![](MyAHP/Images/Addin-Install.PNG "Add-in Install Screenshot")
 
 Once the add-in is installed, it should show up in your ArcGIS Pro Add-in Manager.
+
 ![](MyAHP/Images/Pro-Addin-Manager.PNG "Pro-Addin-Manager Screenshot")
 
 When you navigate to ArcGIS Pro add-in tab at the top
+
 ![](MyAHP/Images/AHP-Addin-Tab.PNG "Pro-AHP-Addin Tab")
 
 Click on the Add-in and you see the following screenshot
+
 ![](MyAHP/Images/AHPAddIn.PNG "AHP-addin")
 
 Note that the raster layers may differ depending on what are open in your project.
@@ -97,7 +104,7 @@ Sensitivity Analysis is a powerful alternative for incorporating uncertainities 
 
 - For better understanding of this project, please review the AHP algorithm, process and computation methodology. In addition, feel free to explore the documentation and presentation of this project in the docs folder.
 
-%md <a href="https://www.youtube.com/watch?v=mV2inNIBkMI" target="_blank">View AHP-Addin Demo here</a>
+<a href="https://www.youtube.com/watch?v=mV2inNIBkMI" target="_blank">View AHP-Addin Demo here</a>
 
 The screenshots shown may be slightly different from the demo, as the demo was made with version 1.0
 
