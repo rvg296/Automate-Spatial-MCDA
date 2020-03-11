@@ -90,7 +90,7 @@ Sensitivity Analysis is a powerful alternative for incorporating uncertainities 
 - Edit the reclassification values and simulations as per your requirements in the code.
 
 ### Documentation-Presentation-AddinDemo
-- For better understanding of this project, please review the AHP algorithm, process and computation methodology. In addition, feel free to explore the documentation and presentation of this project in the docs folder.
+- For better understanding of this project, please review the AHP algorithm, process and computation methodology. In addition, feel free to explore the documentation and presentation of this project in the [docs folder](https://github.com/rvg296/Automate-Spatial-MCDA/tree/master/Docs)
 
 <a href="https://www.youtube.com/watch?v=mV2inNIBkMI" target="_blank">View AHP-Addin Demo here</a>
 
