@@ -49,6 +49,7 @@ Only those raster layers which are active (visible and checked) in the Table of 
 - ArcGIS Pro 2.5
 - .Net Target Framework 4.8
 - Visual Studio 2017 or 2019
+- ArcGIS Pro Spatial Analyst Extension or License
 
 ### Some Important Considerations:
 When we are performing MCDA in GIS, since we are comparing various criteria it is often better to use the Feature/Raster Layers on a uniform scale rather than a varying scale. Hence normalization is performed (ex: 0 to 1 , 1 to 100). In order to minimize the manual intervention of the user with default geoprocessing tools in ArcGIS Pro, we have integrated these reclassification values into the code which can be changed as per your normalization scale. For this project, the normalization scale is chosen as (0 to 1) for the raster layers and also when performing raster reclassification the following ranges were considered which again can be customized in the code again as per user requirements.
