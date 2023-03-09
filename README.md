@@ -1,6 +1,9 @@
 ## Automating Spatial Multi Criteria Decision Analysis using ArcGIS Pro SDK
 ## Theme: Housing Sites Selection based on accessibility levels to basic facilities
 
+## Cite as 
+`Mendadhala, R. V. "Automating Spatial Multi Criteria Decision Analysis (MCDA) of Housing Development Sites in Richardson, TX using ArcGIS Pro SDK for Microsoft. Net-An Accessibility Level Perspective." (2018).`
+
 ### Table of Contents
 
 - [MCDA Introduction](#MCDA-Intro)
