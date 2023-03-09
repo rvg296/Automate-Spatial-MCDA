@@ -2,7 +2,7 @@
 ## Theme: Housing Sites Selection based on accessibility levels to basic facilities
 
 ## Cite as 
-`Mendadhala, R. V. "Automating Spatial Multi Criteria Decision Analysis (MCDA) of Housing Development Sites in Richardson, TX using ArcGIS Pro SDK for Microsoft. Net-An Accessibility Level Perspective." (2018).`
+APA `Mendadhala, R. V. G. (2018). Automating Spatial Multi Criteria Decision Analysis (MCDA) of Housing Development Sites in Richardson, TX using ArcGIS Pro SDK for Microsoft. Net-An Accessibility Level Perspective (Version 1.0.0) [Computer software]. https://doi.org/http://dx.doi.org/10.13140/RG.2.2.26958.59200`
 
 ### Table of Contents
 
