@@ -1,14 +1,19 @@
 ## Automating Spatial Multi Criteria Decision Analysis using ArcGIS Pro SDK
 ## Theme: Housing Sites Selection based on accessibility levels to basic facilities
 
-## Cite as 
+### Cite as 
 `Mendadhala, R. V. G. (2018). Automating Spatial Multi Criteria Decision Analysis (MCDA) of Housing Development Sites in Richardson, TX using ArcGIS Pro SDK for Microsoft. Net-An Accessibility Level Perspective (Version 1.0.0) [Computer software]. http://dx.doi.org/10.13140/RG.2.2.26958.59200`
+
+### Migration to Pro 3.0 and forward compatibility
+ArcGIS Pro 3.0 is a breaking change release, which brought a major architectural change. Installing ArcGIS Pro 3.0 requires .NET 6 Desktop Runtime x64 which can be downloaded (here)[https://dotnet.microsoft.com/en-us/download/dotnet/6.0]. The current add-in can be migrated to Pro 3.0 by following the migration docs[ArcGIS-Pro-SDK GitHub Docs](https://github.com/Esri/arcgis-pro-sdk/wiki/ProConcepts-3.0-Migration-Guide#migrating-to-pro-30). 
+
 
 ### Table of Contents
 
 - [MCDA Introduction](#MCDA-Intro)
 - [AHP Introduction and ArcGIS Pro Integration](#AHP-Intro-and-ArcGIS-Pro-Integration)
 - [Installation](#Installation-Process)
+- [Requirements](#Requirements)
 - [Considerations](#Some-Important-Considerations)
 - [Implementation and Workflow](#implementation-and-workflow)
   - [Data Preparation Stage](#data-preparation-stage)
